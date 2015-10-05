@@ -13,6 +13,9 @@ import android.widget.ListView;
  */
 public class MainActivityFragment extends ListFragment {
 
+    /** String Array showing data
+     *
+     */
     String[] AndroidOS = new String[] { "Cupcake","Donut","Eclair","Froyo","Gingerbread",
             "Honeycomb","Ice Cream SandWich","Jelly Bean","KitKat","Lollipop","Mashmallow","Perk"
             ,"Jelly Bean","KitKat","Lollipop","Mashmallow","Perk"};
