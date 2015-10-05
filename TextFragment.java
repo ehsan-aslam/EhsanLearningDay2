@@ -23,8 +23,13 @@ public class TextFragment extends android.support.v4.app.Fragment  {
 
     }
     public void change(String mTxtName, String mTxtVersion){
+
+        //             First change in develop branch
+        //        Getting text from Android OS and Versions
         mTextNames.setText(mTxtName);
         mTextVersions.setText(mTxtVersion);
+
+
 
     }
 }

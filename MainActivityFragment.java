@@ -39,6 +39,10 @@ public class MainActivityFragment extends ListFragment {
 
     @Override
     public void onListItemClick(ListView l, View v, int position, long id) {
+
+
+//             First change in develop branch
+
         TextFragment txt = (TextFragment) getFragmentManager().findFragmentById(R.id.fragment2);
         txt.change(AndroidOS[position],"Version : "+Version[position]);
         getListView().setSelector(android.R.color.holo_blue_dark);
